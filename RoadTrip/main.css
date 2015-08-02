@@ -64,12 +64,12 @@ a:hover {
 }
 .main {
     display : block;
-    margin: 10px 200px;
+    margin: 50px 200px 0px 200px;
     text-align: center;
 }
 .main img {
     float:left;
-    margin: 50px 90px 50px 0px;
+    margin: 0px 90px 50px 0px;
     
 
 }
@@ -95,7 +95,7 @@ a:hover {
 }
 .planning img {
     float:left;
-    margin: 50px 90px 50px 0px;
+    margin: 0px 90px 50px 0px;
     
 
 }
