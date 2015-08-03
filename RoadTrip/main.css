@@ -117,3 +117,30 @@ a:hover {
     display: block;
     
 }
+.packing {
+    clear: right;
+    margin: 175px 200px 0px 200px;
+    text-align: center;
+}
+.packing img {
+    float:left;
+    margin: 0px 90px 50px 0px;
+    
+
+}
+.packing p {
+    display : block;
+    clear: right;
+    font-family: Arial;
+    font-size: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    -webkit-margin-before: 1px;
+    -webkit-margin-afer: 1px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    
+}
+.packing h2 {
+    clear : right;
+    display: block;
