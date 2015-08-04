@@ -1,13 +1,46 @@
-html {
+html, body {
     margin : 0;
     padding : 0;
+	height: 100%;
 }
 
-body {
-    background: url("images/Road%20Trip%20background.png") 
+
+.wrapper	{
+	min-height: 100%;
+	position: relative;
+
+}
+.header	{
+	 background: url("images/Road%20trip%20scale.png") 
+        no-repeat center center;
+    background: cover;
+	height: 300px;
+    margin: 0px auto;
+	
+
+	
+}
+.body	{
+	background: url("images/Road%20Trip%20background.png") 
         no-repeat center center fixed;
-    margin : 0;
-    padding : 0;
+	background: cover;
+	padding: 10px;
+	padding-bottom: 50px;
+}
+.footer	{
+	position: absolute;
+	right: 0;
+	bottom 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	color: #ffffff;
+	background-color: #000000;
+	font-family: Arial;
+	font-weight: bold;
+	padding-left: 25px;
+	
+	
 }
 div {
     display: block;
@@ -30,18 +63,9 @@ a:hover {
     background-color: #000000;
     clear: right;
 }
-.header {
-    background: url("images/Road%20trip%20scale.png") 
-        no-repeat center center;
-    background: cover;
-    height: 300px;
-    margin: 0px auto;
-    
-}
-
 
 .nav {
-    height: 65px;
+	height: 65px;
     width : 100%;
     background-color: #020d91;
     margin: 0px auto;
@@ -49,7 +73,6 @@ a:hover {
 }
 .nav ul {
     margin : 22px;
-    
 }
 .nav li {
     display : inline;
@@ -62,14 +85,22 @@ a:hover {
 .nav li:hover {
     background-color: #5696ed;
 }
+.nav ul h1 {
+	color: #ffffff;
+	float: right;
+	font-family: "Artbrush";
+	font-size: 50px;
+	margin: -10px;
+	padding-right: 50px;
+	
+}
 .main {
-    display : block;
-    margin: 50px 200px 0px 200px;
+    margin: 25px 200px 0px 200px;
     text-align: center;
 }
 .main img {
     float:left;
-    margin: 0px 90px 50px 0px;
+    margin: 0px 90px 60px 0px;
     
 
 }
@@ -119,12 +150,12 @@ a:hover {
 }
 .packing {
     clear: right;
-    margin: 175px 200px 0px 200px;
+    margin: 175px 200px 85px 200px;
     text-align: center;
 }
 .packing img {
     float:left;
-    margin: 0px 90px 50px 0px;
+    margin: 0px 90px 0px 0px;
     
 
 }
@@ -144,3 +175,28 @@ a:hover {
 .packing h2 {
     clear : right;
     display: block;
+}
+	
+.photo-header{
+	
+}
+.photo-gallery{
+	clear: both;
+	position: relative;
+	margin: 10px;
+	border: 1px solid #000000;
+	padding: 0px 75px 50px 75px;
+	
+}
+.photo-gallery h1 {
+	text-align: center;
+}
+.photo-gallery img {
+	width: 200px;
+	height: 200px;
+	margin: 40px 50px 10px 50px;
+	opacity: .7;
+}
+.photo-gallery img:hover {
+	opacity: 1;
+}
