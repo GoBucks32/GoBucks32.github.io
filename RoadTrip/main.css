@@ -1,31 +1,34 @@
+/** {
+	margin: 0px;
+}*/
 html, body {
     margin : 0;
     padding : 0;
 	height: 100%;
+}
+div {
+	display: inline-block;
 }
 
 
 .wrapper	{
 	min-height: 100%;
 	position: relative;
-
 }
+
 .header	{
-	 background: url("images/Road%20trip%20scale.png") 
-        no-repeat center center;
+	display: block;
+	background: url("images/Road%20trip%20scale.png") no-repeat center center;
     background: cover;
 	height: 300px;
     margin: 0px auto;
-	
-
-	
 }
 .body	{
+	display: block;
 	background: url("images/Road%20Trip%20background.png") 
         no-repeat center center fixed;
 	background: cover;
-	padding: 10px;
-	padding-bottom: 50px;
+	padding-top: 20px;
 }
 .footer	{
 	position: absolute;
@@ -39,20 +42,13 @@ html, body {
 	font-family: Arial;
 	font-weight: bold;
 	padding-left: 25px;
-	
-	
 }
-div {
-    display: block;
-}
+
 a {
     color: #ffffff;
     text-decoration: none;
-    
 }
 a:hover {
-    
-
 }
 .btn {
     height: 50px;
@@ -95,108 +91,52 @@ a:hover {
 	
 }
 .main {
-    margin: 25px 200px 0px 200px;
-    text-align: center;
+	text-align: center;
+	padding: 25px 150px 5px 100px;
 }
 .main img {
     float:left;
-    margin: 0px 90px 60px 0px;
-    
-
+    margin: 60px 115px 0px 60px;
 }
 .main p {
     display: block;
     font-family: Arial;
     font-size: 20px;
-    -webkit-margin-before: 1px;
-    -webkit-margin-afer: 1px;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
+	margin-bottom: 10px;
+	text-align:left;
     
 }
-.main h2 {
-    display: block;
-    clear: right;
-    
+.main p:last-child {
+	text-align: center;
 }
-.planning {
-    clear: right;
-    margin: 175px 200px 0px 200px;
-    text-align: center;
-}
-.planning img {
-    float:left;
-    margin: 0px 90px 50px 0px;
-    
 
-}
-.planning p {
-    display : block;
-    clear: right;
-    font-family: Arial;
-    font-size: 20px;
-    margin-left: 25px;
-    margin-right: 25px;
-    -webkit-margin-before: 1px;
-    -webkit-margin-afer: 1px;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    
-}
-.planning h2 {
-    clear : right;
-    display: block;
-    
-}
-.packing {
-    clear: right;
-    margin: 175px 200px 85px 200px;
-    text-align: center;
-}
-.packing img {
-    float:left;
-    margin: 0px 90px 0px 0px;
-    
-
-}
-.packing p {
-    display : block;
-    clear: right;
-    font-family: Arial;
-    font-size: 20px;
-    margin-left: 25px;
-    margin-right: 25px;
-    -webkit-margin-before: 1px;
-    -webkit-margin-afer: 1px;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    
-}
-.packing h2 {
-    clear : right;
-    display: block;
-}
-	
-.photo-header{
-	
-}
 .photo-gallery{
-	clear: both;
-	position: relative;
-	margin: 10px;
+	margin: 15px;
 	border: 1px solid #000000;
-	padding: 0px 75px 50px 75px;
-	
+	padding: 15px;
 }
 .photo-gallery h1 {
 	text-align: center;
 }
-.photo-gallery img {
+.img img {
+	display: inline;
 	width: 200px;
 	height: 200px;
-	margin: 40px 50px 10px 50px;
-	opacity: .7;
 }
-.photo-gallery img:hover {
-	opacity: 1;
+.img {
+	float: left;
+	height: auto;
+	width: 250px;
+	margin: 5px 5px 5px 5px;
+	padding: 5px;
+	text-align: center;
+}
+
+}
+div.desc {
+	display:block;
+	font-weight: normal;
+	font-size: 15px;
+	text-align: center;
+
 }
