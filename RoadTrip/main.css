@@ -114,6 +114,7 @@ a:hover {
 	margin: 15px;
 	border: 1px solid #000000;
 	padding: 15px;
+	padding-left: 70px;
 }
 .photo-gallery h1 {
 	text-align: center;
@@ -126,7 +127,7 @@ a:hover {
 .img {
 	float: left;
 	height: auto;
-	width: 250px;
+	width: 230px;
 	margin: 5px 5px 5px 5px;
 	padding: 5px;
 	text-align: center;
