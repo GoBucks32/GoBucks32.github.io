@@ -6,6 +6,8 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 div {
@@ -14,7 +16,9 @@ div {
 
 .wrapper {
     min-height: 100%;
+    /* min-width: 100%; */
     position: relative;
+    text-align: center;
 }
 
 .header {
@@ -33,25 +37,24 @@ div {
 }
 
 .footer {
-    position: absolute;
-    right: 0;
-    bottom 0;
-    left: 0;
+    position: relative;
+    /* right: 0;
+    bottom: 0;
+    left: 0; */
     width: 100%;
     height: 50px;
     color: #ffffff;
     background-color: #000000;
     font-family: Arial;
     font-weight: bold;
-    padding-left: 25px;
+    text-align: center;
+    /* padding-left: 25px; */
 }
 
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
-a:hover {}
 
 .btn {
     height: 50px;
@@ -64,11 +67,12 @@ a:hover {}
 }
 
 .nav {
+    position: relative;
     height: 65px;
     width: 100%;
     background-color: #020d91;
     margin: 0px auto;
-    padding: 1px;
+    /* padding: 1px; */
 }
 
 .nav ul {
@@ -119,10 +123,14 @@ a:hover {}
 }
 
 .photo-gallery {
-    margin: 15px;
+    position: relative;
+    margin: 15px auto;
     border: 1px solid #000000;
-    padding: 15px;
-    padding-left: 70px;
+    height: auto;
+    width: 90%;
+    text-align: center;
+    /* padding: 15px; */
+    /* padding-left: 70px; */
 }
 
 .photo-gallery h1 {
@@ -136,7 +144,7 @@ a:hover {}
 }
 
 .img {
-    float: left;
+    /* float: left; */
     height: auto;
     width: 230px;
     margin: 5px 5px 5px 5px;
@@ -144,9 +152,7 @@ a:hover {}
     text-align: center;
 }
 
-}
-
-div.desc {
+.desc {
     display: block;
     font-weight: normal;
     font-size: 15px;
