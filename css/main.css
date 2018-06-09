@@ -1,55 +1,58 @@
 /** {
 	margin: 0px;
 }*/
+
 html, body {
-    margin : 0;
-    padding : 0;
-	height: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
+
 div {
-	display: inline-block;
+    display: inline-block;
 }
 
-
-.wrapper	{
-	min-height: 100%;
-	position: relative;
+.wrapper {
+    min-height: 100%;
+    position: relative;
 }
 
-.header	{
-	display: block;
-	background: url("images/Road%20trip%20scale.png") no-repeat center center;
-    background: cover;
-	height: 300px;
+.header {
+    display: block;
+    background: url("../images/Roadtrip_scale.png") no-repeat center center;
+    background-size: cover;
+    height: 300px;
     margin: 0px auto;
 }
-.body	{
-	display: block;
-	background: url("images/Road%20Trip%20background.png") 
-        no-repeat center center fixed;
-	background: cover;
-	padding-top: 20px;
+
+.body {
+    display: block;
+    background: url("../images/RoadTrip_background.png") no-repeat center center fixed;
+    background-size: cover;
+    padding-top: 20px;
 }
-.footer	{
-	position: absolute;
-	right: 0;
-	bottom 0;
-	left: 0;
-	width: 100%;
-	height: 50px;
-	color: #ffffff;
-	background-color: #000000;
-	font-family: Arial;
-	font-weight: bold;
-	padding-left: 25px;
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    color: #ffffff;
+    background-color: #000000;
+    font-family: Arial;
+    font-weight: bold;
+    padding-left: 25px;
 }
 
 a {
     color: #ffffff;
     text-decoration: none;
 }
-a:hover {
-}
+
+a:hover {}
+
 .btn {
     height: 50px;
     width: 50px;
@@ -61,83 +64,91 @@ a:hover {
 }
 
 .nav {
-	height: 65px;
-    width : 100%;
+    height: 65px;
+    width: 100%;
     background-color: #020d91;
     margin: 0px auto;
-    padding : 1px;
+    padding: 1px;
 }
+
 .nav ul {
-    margin : 22px;
+    margin: 22px;
 }
+
 .nav li {
-    display : inline;
+    display: inline;
     margin: 20px;
     padding: 10px;
     text-transform: uppercase;
     border: 1px solid #ffffff;
-
 }
+
 .nav li:hover {
     background-color: #5696ed;
 }
+
 .nav ul h1 {
-	color: #ffffff;
-	float: right;
-	font-family: "Artbrush";
-	font-size: 50px;
-	margin: -10px;
-	padding-right: 50px;
-	
+    color: #ffffff;
+    float: right;
+    font-family: "Artbrush";
+    font-size: 50px;
+    margin: -10px;
+    padding-right: 50px;
 }
+
 .main {
-	text-align: center;
-	padding: 25px 150px 5px 100px;
+    text-align: center;
+    padding: 25px 150px 5px 100px;
 }
+
 .main img {
-    float:left;
+    float: left;
     margin: 60px 115px 0px 60px;
 }
+
 .main p {
     display: block;
     font-family: Arial;
     font-size: 20px;
-	margin-bottom: 10px;
-	text-align:left;
-    
+    margin-bottom: 10px;
+    text-align: left;
 }
+
 .main p:last-child {
-	text-align: center;
+    text-align: center;
 }
 
-.photo-gallery{
-	margin: 15px;
-	border: 1px solid #000000;
-	padding: 15px;
-	padding-left: 70px;
+.photo-gallery {
+    margin: 15px;
+    border: 1px solid #000000;
+    padding: 15px;
+    padding-left: 70px;
 }
+
 .photo-gallery h1 {
-	text-align: center;
+    text-align: center;
 }
+
 .img img {
-	display: inline;
-	width: 200px;
-	height: 200px;
+    display: inline;
+    width: 200px;
+    height: 200px;
 }
+
 .img {
-	float: left;
-	height: auto;
-	width: 230px;
-	margin: 5px 5px 5px 5px;
-	padding: 5px;
-	text-align: center;
+    float: left;
+    height: auto;
+    width: 230px;
+    margin: 5px 5px 5px 5px;
+    padding: 5px;
+    text-align: center;
 }
 
 }
+
 div.desc {
-	display:block;
-	font-weight: normal;
-	font-size: 15px;
-	text-align: center;
-
+    display: block;
+    font-weight: normal;
+    font-size: 15px;
+    text-align: center;
 }
